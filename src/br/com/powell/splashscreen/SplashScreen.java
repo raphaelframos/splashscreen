@@ -21,6 +21,7 @@ public class SplashScreen extends Activity {
 			public void run() {
 				try{
 					startActivity(new Intent(SplashScreen.this, SegundaTela.class));
+					Log.d(TAG, "Tela 1");
 				}catch(ActivityNotFoundException e){
 					Log.e(TAG, e.getMessage());
 				}
