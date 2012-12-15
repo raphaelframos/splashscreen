@@ -3,4 +3,7 @@
     <issue id="ContentDescription">
         <ignore path="res\layout\splash_screen.xml" />
     </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\segunda_tela.xml" />
+    </issue>
 </lint>

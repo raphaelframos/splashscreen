@@ -12,7 +12,6 @@ public class SegundaTela extends Activity{
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.segunda_tela);
-        
         Log.d(TAG, "Tela 2");
 	}
 
